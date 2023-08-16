@@ -2,7 +2,7 @@
 	"name": "PWA By Babel",
 	"short_name": "PWA Babel",
 	"theme_color": "#E89642",
-	"background_color": "",
+	"background_color": "#ffffff",
 	"display": "standalone",
 	"orientation": "porttrait",
 	"scope": "./",
@@ -11,7 +11,7 @@
 		{
 			"src": "./images/icono.png",
 			"type": "image/png",
-			"sizes": "180x180"
+			"sizes": "512x512"
 		}
 	]
 }
