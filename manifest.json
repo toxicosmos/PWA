@@ -14,16 +14,5 @@
 			"type": "image/png",
 			"sizes": "512x512"
 		}
-		],
-	"file_handlers": [
-	    {      
-	        "action": "/",                
-                "accept":{
-	              "application/pdf": [".pdf"],
-	              "application/zip": [".zip"],
-	              "application/vnd.etsi.asic-e+zip": [".xsig"] 
-	      	}
-	    }
-	  ]
-	
+		]
 }

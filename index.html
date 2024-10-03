@@ -2,23 +2,25 @@
 <html lang="es">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width_device-width, inital-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babel PWA</title>
     <link rel="manifest" href="./manifest.json">
-	<script type="text/javascript">
-	  if ("serviceWorker" in navigator) {
-	    navigator.serviceWorker.register("sw.js");
-	  }
-	</script>
+    <script type="text/javascript">
+        if (typeof navigator.serviceWorker !== 'undefined') {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
 </head>
 
 <body>
-	De web a PWA.
+    De web a PWA.
 
-    Copyright Babel.
-	(y ahora Pablo participa también)
+    <h2>Descargar ZIP de prueba</h2>
+    <a href="">Descargar archivo ZIP</a>
+
+    Copyright Babel. (y ahora Pablo participa también)
 </body>
 
 </html>
