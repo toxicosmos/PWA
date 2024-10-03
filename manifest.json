@@ -1,6 +1,7 @@
 {
 	"name": "PWA By Babel",
 	"short_name": "PWA Babel",
+    "description": "WebBoard is your go to application for quick doodles, notes, or sketches!",
 	"theme_color": "#E89642",
 	"background_color": "#ffffff",
 	"display": "standalone",
@@ -13,5 +14,16 @@
 			"type": "image/png",
 			"sizes": "512x512"
 		}
-	]
+		],
+	"file_handlers": [
+	    {      
+	        "action": "/",                
+                "accept":{
+	              "application/pdf": [".pdf"],
+	              "application/zip": [".zip"],
+	              "application/vnd.etsi.asic-e+zip": [".xsig"] 
+	      	}
+	    }
+	  ]
+	
 }
